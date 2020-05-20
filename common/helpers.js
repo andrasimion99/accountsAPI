@@ -34,7 +34,7 @@ module.exports.success = (res, data = null, statusCode = 200) => {
 
 const addHeaders = (res) => {
   res.setHeader("Content-Type", "application/json");
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Origin", "https://obesity-tw.herokuapp.com/");
   res.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PATCH, DELETE");
   // res.setHeader("Access-Control-Allow-Credentials", "true");
   // res.setHeader("Access-Control-Allow-Headers", "X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Authorization");
